@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="75dp"
+    android:background="#123456"
+    >
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:id="@+id/tvid"
+        android:text="12A"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:id="@+id/tvbmi"
+        android:text="BMI"
+        android:layout_toRightOf="@+id/tvid"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:id="@+id/tvtime"
+        android:text="Date and Time"
+        android:layout_toRightOf="@+id/tvid"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+
+
+
+</RelativeLayout>
